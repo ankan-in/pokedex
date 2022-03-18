@@ -46,7 +46,7 @@ function theme() {
 
     document.querySelector('.th').classList.toggle("thw");
     document.body.classList.toggle("bodyw");
-    document.querySelector('.pimgm').classList.toggle("pimgmc")
+    
     document.querySelector('.nav').classList.toggle("navc")
     
 }
