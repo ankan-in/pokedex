@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex by Itzankan &copy;</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="img/index.png">
+
+</head>
+
+<body>
+    <div class="entrance">
+    <div class="nav">
+        
+        <input type="text" id="pikaNS" placeholder="SEARCH YOUR POKEMON"><button onkeydown="add()" onclick="add()" class="bs"><i
+                class="fa fa-search bb"></i></button>
+                <button class="th" id="th" onclick="theme()"><div class="thc"></div></button>
+               
+    </div>
+    <div class="main">
+        
+        <img src=""  class="pimgm">
+        
+     
+        <ol>
+        <li><h1 class="pika pika1">Pokemon Name:<span class="pika pika2"  id="pname"></span></h1></li>
+        <li><h1 class="pika pika3">Experience:<span class="pika pika4"  id="pe"></span></h1></li>
+        <li><h1 class="pika pika5">Pokemon Abilities:<span class="pika pika6"  id="pabi"></span></h1></li>
+        <li><h1 class="pika pika7">Weight:<span class="pika pika8"  id="pup"></span></h1></li>
+        <li><h1 class="pika pika9 pikaB">STATS:</h1></li>
+    </ol>
+    <table class="myTab">
+        <tr>
+            <td class="stpl"><h1 class="pika pika10 s">HitPoint :</h1></td>
+            <td class="sta"> <h1 class="pika pika11" id="stat0"></h1> </td>             
+        </tr>
+        <tr>
+            <td class="stpl"><h1 class="pika pika12 s">Attack Power :</h1></td>
+            <td class="sta"><h1 class="pika pika13" id="stat1"></h1></td>
+        </tr>
+        <tr>
+            <td class="stpl"><h1 class="pika pika14 s">Defence Power :</h1></td>
+            <td class="sta"><h1 class="pika pika15" id="stat2"></h1></td>
+        </tr>
+        <tr>
+            <td class="stpl"><h1 class="pika pika16 s">Special Attack Power :</h1></td>
+            <td class="sta"><h1 class="pika pika17" id="stat3"></h1></td>
+        </tr>
+        <tr>
+            <td class="stpl"><h1 class="pika pika18 s">Special Defence Power :</h1></td>
+            <td class="sta"><h1 class="pika pika19" id="stat4"></h1></td>
+        </tr>
+        <tr>
+            <td class="stpl"><h1 class="pika pika20 s">Speed :</h1></td>
+            <td class="sta"><h1 class="pika pika21" id="stat5"></h1></td>
+        </tr>
+    </table>
+    <ol>
+        <li><details>
+            <summary class="pika pika22 B" style="font-size: 2.7rem;">Moves:</summary>
+            <p class="pika pika23" id="moves" style="font-size: 1.7rem;"></p>
+        </details></li>
+    </ol>
+    </div>
+</div>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
