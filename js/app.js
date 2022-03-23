@@ -1,6 +1,6 @@
 function add () {
     var pokeNS = document.querySelector("#pikaNS").value.toLocaleLowerCase();
-    fetch(``)
+    fetch(`https://pokeapi.co/api/v2/pokemon/${pokeNS}`)
     .then(response => response.json())
     .then(pokeData => {
       //name
